@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LangChain- Develop AI Agents with LangChain & LangGraph 🦜🔗
 
 **Learn LangChain and LangGraph by building real world AI Agents (Python, Latest Version 0.3.0+)**
@@ -156,3 +157,7 @@ If you find this project helpful, please consider:
 
 </div>
 
+=======
+# langchain_basics
+Langchain basics
+>>>>>>> 2033d8f2d0d667467d7ed7f4569fa48bf0968e79
