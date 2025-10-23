@@ -1,5 +1,8 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_ollama import ChatOllama
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def main():
     print("Hello from langchain-course!")
@@ -20,7 +23,7 @@ Given the information {information} about a planet, you are a very professional 
     )
 
     # NOTE: model name must match ollama list entry exactly (you have deepseek-r1:8b)
-    llm = ChatOllama(model="deepseek-r1:8b", temperature=0)
+    llm = ChatOllama(model="gemma3:270m", temperature=0)
 
     chain = summary_prompt_template | llm
 
